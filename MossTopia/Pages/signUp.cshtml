@@ -1,0 +1,33 @@
+﻿@page
+@model MossTopia.Pages.signUpModel
+@{
+}
+<div class="text-center">
+    <h1 class="display-4">Join the Moss Movement</h1>
+</div>
+<form action="action_page.php">
+    <div class="container">
+        
+        <hr>
+
+        <label for="email"><h3>Email</h3></label>
+        <br/>
+        <input type="text" placeholder="Email" name="email" id="email" required>
+        <br/>
+        <br/>
+        <label for="psw"><h3>Vælg et kodeord</h3></label>
+        <br/>
+        <input type="password" placeholder="kodeord" name="psw" id="psw" required>
+        <br/>
+        <br/>
+        <label for="psw-repeat"><h3>Gentag kodeordet</h3></label>
+        <br/>
+        <input type="password" placeholder="Kodekord" name="psw-repeat" id="psw-repeat" required>
+        <hr>
+
+        <p>Ved at lave en profil siger du ja til sælge din sjæl <a href="#">Terms & Privacy</a>.</p>
+        <button type="submit" class="registerbtn">Register</button>
+    </div>
+
+    
+</form>

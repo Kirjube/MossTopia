@@ -1,0 +1,32 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <header>
+    
+        <a class="nav-link" asp-page="\SignUp"><img class="img-fluid" src="~/Images/JointheMM.png" max-width: 100%  /></a>
+
+    </header>
+    <div class="container-fluid p-3 my-3 bg-dark text-white">
+        <h2>Vores bestsellers </h2>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img class="img-fluid"  src="/Images/Terarriedeal.png" alt="Snow" style="width: 239px; height: 195px;"/>
+            <p>Terarrie deal, lille Marimo</p>
+        </div>
+        <div class="column">
+            <img class="img-fluid"  src="/Images/MellemMarimo.png" alt="Forest" style="width: 239px; height: 195px;" />
+            <p>Mellem Marimo </p>
+        </div>
+        <div class="column">
+            <a class="nav-link" asp-page="\LargeMarimo">  <img class="img-fluid" src="/Images/StorMarimo.png" alt="Mountains" style="width: 239px; height: 195px;" /></a>
+            <p>Stor Marimo</p>
+        </div>
+    </div>
+    
+
+</div>
